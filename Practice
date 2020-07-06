@@ -1,4 +1,4 @@
-#creating a table 
+/*Creating a table*/
 CREATE TABLE customer_id
 (store_id int,
 first_name varchar(45),
@@ -6,13 +6,13 @@ last_name varchar(45),
  address_id int
  )
  
-#listing 100 customers
+/*Listing 100 customers*/
 SELECT first_name, last_name, store_id
 FROM sakila.customer;
 WHERE sakila.customer = 100;
 
 
-#customer with last name "Johnson"
+/*Customer with last name "Johnson"*/
 SELECT first_name, last_name, address_id
 FROM sakila.customer
 WHERE last_name = 'Johnson';
