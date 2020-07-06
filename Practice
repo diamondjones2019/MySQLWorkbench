@@ -6,7 +6,7 @@ last_name varchar(45),
  address_id int
  )
  
-#finding 100 customers first and last name with store ID number
+#listing 100 customers
 SELECT first_name, last_name, store_id
 FROM sakila.customer;
 WHERE sakila.customer = 100;
