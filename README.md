@@ -1,5 +1,5 @@
 # MySQL Workbench
 
-I have attached a CSV file & SQL text file of the data
+I have attached a CSV file & SQL text file of the data "Customers" in MySQl Workbench
 
-I am practicing Querying data from a table 
+Querying data from a table 
