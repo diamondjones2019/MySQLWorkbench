@@ -1,4 +1,4 @@
-/*Creating a table*/
+/*Create a table*/
 CREATE TABLE customer_id
 (store_id int,
 first_name varchar(45),
@@ -6,7 +6,25 @@ last_name varchar(45),
  address_id int
  )
  
-/*Listing 100 customers*/
+ 
+/*Query data in columns from table*/
+SELECT first_name, last_name, address_id
+FROM sakila.customer
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+/*Listing only 100 customers from data*/
 SELECT first_name, last_name, store_id
 FROM sakila.customer;
 WHERE sakila.customer = 100;
