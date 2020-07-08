@@ -8,3 +8,4 @@ SQL Operators
 Managing tables 
 Modifying data 
 Subqueries (single row and multiple rows)
+
